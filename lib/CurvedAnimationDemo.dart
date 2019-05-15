@@ -17,27 +17,13 @@ class _LogoAppState extends State<LogoApp> with SingleTickerProviderStateMixin {
 		controller = AnimationController(duration: const Duration(seconds: 2),
 			vsync: this);
 
-		animation = Tween<double>(begin: 0.0, end: 300.0).animate(controller)
-		..addListener(() {
-			setState(() {
-				// The state that has changed here is the animation object’s value.
-			});
-		});
+		animation = Tween<double>(begin: 0.0, end: 300.0).animate(controller);
 
 		controller.forward();
 	}
 
 	@override
-	Widget build(BuildContext context) {
-		return Center(
-			child: Container(
-				margin: EdgeInsets.symmetric(vertical: 10.0),
-				height: animation.value,
-				width: animation.value,
-				child: FlutterLogo(),
-			),
-		);
-	}
+	Widget build(BuildContext context) => AnimatedLogo(animation: animation);
 
 	@override
   void dispose() {
