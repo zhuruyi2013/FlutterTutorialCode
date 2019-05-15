@@ -4,28 +4,35 @@ import 'package:flutter/animation.dart';
 void main() => runApp(LogoApp());
 
 class LogoApp extends StatefulWidget {
-	_LogoAppState createState() => _LogoAppState();
+  _LogoAppState createState() => _LogoAppState();
 }
 
 class _LogoAppState extends State<LogoApp> with SingleTickerProviderStateMixin {
-	Animation<double> animation;
-	AnimationController controller;
+  Animation<double> animation;
+  AnimationController controller;
 
-	@override
-	void initState() {
-		super.initState();
-		controller = AnimationController(duration: const Duration(seconds: 2),
-			vsync: this);
+  @override
+  void initState() {
+    super.initState();
+    controller =
+        AnimationController(duration: const Duration(seconds: 2), vsync: this);
 
-		animation = Tween<double>(begin: 0.0, end: 300.0).animate(controller);
+    animation = Tween<double>(begin: 0.0, end: 300.0).animate(controller)
+      ..addStatusListener((status) {
+        if (status == AnimationStatus.completed) {
+          controller.reverse();
+        }else if (status == AnimationStatus.dismissed){
+          controller.forward();
+        }
+      });
 
-		controller.forward();
-	}
+    controller.forward();
+  }
 
-	@override
-	Widget build(BuildContext context) => AnimatedLogo(animation: animation);
+  @override
+  Widget build(BuildContext context) => AnimatedLogo(animation: animation);
 
-	@override
+  @override
   void dispose() {
     controller.dispose();
     super.dispose();
@@ -33,18 +40,18 @@ class _LogoAppState extends State<LogoApp> with SingleTickerProviderStateMixin {
 }
 
 class AnimatedLogo extends AnimatedWidget {
-	AnimatedLogo({Key key, Animation<double> animation})
-		: super(key: key, listenable: animation);
+  AnimatedLogo({Key key, Animation<double> animation})
+      : super(key: key, listenable: animation);
 
-	Widget build(BuildContext context) {
-		final Animation<double> animation = listenable;
-		return Center(
-			child: Container(
-				margin: EdgeInsets.symmetric(vertical: 10.0),
-				height: animation.value,
-				width: animation.value,
-				child: FlutterLogo(),
-			),
-		);
-	}
+  Widget build(BuildContext context) {
+    final Animation<double> animation = listenable;
+    return Center(
+      child: Container(
+        margin: EdgeInsets.symmetric(vertical: 10.0),
+        height: animation.value,
+        width: animation.value,
+        child: FlutterLogo(),
+      ),
+    );
+  }
 }

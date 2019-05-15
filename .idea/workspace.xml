@@ -5,8 +5,14 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a173d9e-f693-409e-b9bb-e0a1dafdbfdb" name="Default Changelist" comment="" />
+    <list default="true" id="7a173d9e-f693-409e-b9bb-e0a1dafdbfdb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/CurvedAnimationDemo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/CurvedAnimationDemo.dart" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
@@ -40,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="dart" value="58" />
+          <entry key="dart" value="60" />
           <entry key="java" value="6" />
           <entry key="jpg" value="2" />
           <entry key="lock" value="2" />
@@ -52,7 +58,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dart" value="58" />
+          <entry key="Dart" value="60" />
           <entry key="Image" value="3" />
           <entry key="JAVA" value="6" />
           <entry key="PLAIN_TEXT" value="3" />
@@ -62,13 +68,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dart" value="51969" />
+          <entry key="dart" value="52092" />
+          <entry key="txt" value="23" />
           <entry key="yaml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dart" value="51969" />
+          <entry key="Dart" value="52092" />
+          <entry key="PLAIN_TEXT" value="23" />
           <entry key="YAML" value="29" />
         </counts>
       </usages-collector>
@@ -76,20 +84,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/CrossScreen.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/CurvedAnimationDemo.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
+            <state relative-caret-position="239">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -97,11 +96,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/AnimatedLogo.dart">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/animation/animation.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="114">
+              <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Eight.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4">
+              <caret line="188" column="12" lean-forward="true" selection-start-line="188" selection-start-column="12" selection-end-line="188" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,7 +207,12 @@
       <find>pavlova</find>
       <find>textSection</find>
       <find>LogoApp</find>
+      <find>flutter</find>
+      <find>I/flutter</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -216,8 +232,8 @@
         <option value="$PROJECT_DIR$/lib/ReturnData.dart" />
         <option value="$PROJECT_DIR$/lib/Route.dart" />
         <option value="$PROJECT_DIR$/lib/CrossScreen.dart" />
-        <option value="$PROJECT_DIR$/lib/CurvedAnimationDemo.dart" />
         <option value="$PROJECT_DIR$/lib/AnimatedLogo.dart" />
+        <option value="$PROJECT_DIR$/lib/CurvedAnimationDemo.dart" />
       </list>
     </option>
   </component>
@@ -227,6 +243,7 @@
     <option name="width" value="1379" />
     <option name="height" value="722" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -294,6 +311,10 @@
       <option name="filePath" value="$PROJECT_DIR$/lib/CurvedAnimationDemo.dart" />
       <method v="2" />
     </configuration>
+    <configuration name="Eight.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/Eight.dart" />
+      <method v="2" />
+    </configuration>
     <configuration name="Params.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lib/Params.dart" />
       <method v="2" />
@@ -313,9 +334,11 @@
       <item itemvalue="Flutter.Params.dart" />
       <item itemvalue="Flutter.ReturnData.dart" />
       <item itemvalue="Flutter.CrossScreen.dart" />
+      <item itemvalue="Flutter.Eight.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Flutter.Eight.dart" />
         <item itemvalue="Flutter.CrossScreen.dart" />
         <item itemvalue="Flutter.Route.dart" />
         <item itemvalue="Flutter.ReturnData.dart" />
@@ -334,6 +357,14 @@
       <option name="presentableId" value="Default" />
       <updated>1551079667674</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat : Simplifying with Animated­Widget">
+      <created>1557890040540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557890040540</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -349,7 +380,7 @@
     <frame x="0" y="23" width="1280" height="722" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.103559874" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.103559874" />
       <window_info id="Designer" order="1" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -359,11 +390,11 @@
       <window_info id="Structure" order="7" side_tool="true" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
       <window_info anchor="bottom" id="Dart Analysis" order="1" weight="0.3294893" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.43203884" visible="true" weight="0.20098847" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.43203884" visible="true" weight="0.39538714" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.56796116" side_tool="true" weight="0.4398682" />
       <window_info anchor="bottom" id="Statistic" order="5" weight="0.3294893" />
-      <window_info anchor="bottom" id="Logcat" order="6" />
+      <window_info anchor="bottom" id="Logcat" order="6" weight="0.3294893" />
       <window_info anchor="bottom" id="Flutter Performance" order="7" sideWeight="0.50161815" side_tool="true" weight="0.24052718" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3294893" />
@@ -419,14 +450,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat : Simplifying with Animated­Widget" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : Simplifying with Animated­Widget" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/widgets/icon_data.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/flutter/bin/cache/pkg/sky_engine/lib/core/iterable.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -611,16 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Eight.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3492">
-          <caret line="195" column="9" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Nine.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -773,20 +791,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/CurvedAnimationDemo.dart">
+    <entry file="file://$PROJECT_DIR$/lib/AnimatedLogo.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
+        <state relative-caret-position="144">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Eight.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="188" column="12" lean-forward="true" selection-start-line="188" selection-start-column="12" selection-end-line="188" selection-end-column="12" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/AnimatedLogo.dart">
+    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/animation/animation.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="114">
+          <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/CurvedAnimationDemo.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
